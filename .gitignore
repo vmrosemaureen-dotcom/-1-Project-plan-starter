@@ -1,72 +1,37 @@
-# Project Plan Starter
---
-## Overview
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
-**Project topic**: Personal monthly expense analysis  
-**Owner**: Rose  
-**Duration**: 3 weeks  
-**Audience**: Self and close stakeholders
----
-## Objectives
+# Virtual envs and secrets
+venv/
+.env
+.env.*
 
-- **Primary objective**: Understand monthly spending patterns and identify 2–3 areas to reduce expenses.  
-- **Secondary objectives**: Create simple visualizations and a reproducible notebook.
----
-## Research Questions
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
-- **Primary question**: Which expense categories consume the largest share of monthly budget?  
-- **Secondary questions**: Are there recurring subscriptions that can be canceled? How does spending vary by week?
----
-## Success Metrics
+# Data folders (do not commit raw or large files)
+data/raw/
+data/tmp/
+data/external/
+*.csv
+*.parquet
 
-- **Quantitative**: Identify top 3 categories that account for ≥50% of monthly spending.  
-- **Qualitative**: Notebook is clear and reproducible; insights are actionable.
----
-## Milestones
+# Models and artifacts
+models/
+*.h5
+*.pkl
+*.joblib
 
-1. **Initialization and Setup** — due: Week 1 Day 1  
-   - Tasks: create repo `personal-expense-insights`, add `project_plan.md`, `README.md`.  
-2. **Data Collection** — due: Week 1 Day 3  
-   - Tasks: export bank/credit card CSVs, combine into `data/raw/`.  
-3. **Cleaning and Preprocessing** — due: Week 1 Day 7  
-   - Tasks: standardize categories, handle missing dates, save `data/clean/expenses_v1.csv`.  
-4. **Exploratory Data Analysis** — due: Week 2 Day 3  
-   - Tasks: create category pie chart, weekly trend line, save notebook `notebooks/eda.ipynb`.  
-5. **Analysis and Recommendations** — due: Week 2 Day 7  
-   - Tasks: identify subscriptions, calculate potential monthly savings, draft recommendations.  
-6. **Documentation and Handover** — due: Week 3 Day 1  
-   - Tasks: finalize `README.md`, prepare 3-slide summary, commit final notebooks.
+# Logs and reports
+logs/
+*.log
+reports/
 
----
-## Deliverables
-
-- **Clean dataset**: `data/clean/expenses_v1.csv`  
-- **Notebooks**: `notebooks/eda.ipynb`, `notebooks/analysis.ipynb`  
-- **Visualizations**: category breakdown, weekly trend chart  
-- **Documentation**: `project_plan.md`, `README.md`, 3-slide summary
-
----
-## Acceptance Criteria
-
-- Steps to reproduce cleaning are in `notebooks/eda.ipynb`.  
-- Top 3 categories identified and documented with numbers.  
-- At least one actionable recommendation with estimated monthly savings.
-
----
-## Risks and Mitigation
-
-- **Risk**: Missing or inconsistent transaction categories — **Mitigation**: manual mapping table and simple rules.  
-- **Risk**: Limited time — **Mitigation**: focus on top 3 categories only.
-
----
-## Roles and Responsibilities
-
-- **Project Lead**: Rose (owner and analyst)  
-- **Documentation Owner**: Rose
---
-## Quick Start Checklist
-
-- [ ] Create repository `personal-expense-insights`  
-- [ ] Add `project_plan.md` with this content  
-- [ ] Commit to `main` branch  
-- [ ] Create issues for each milestone
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
