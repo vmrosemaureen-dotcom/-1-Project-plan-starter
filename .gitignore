@@ -1,37 +1,27 @@
 # Project Plan Starter
-
----
-
+--
 ## Overview
 
 **Project topic**: Personal monthly expense analysis  
 **Owner**: Rose  
 **Duration**: 3 weeks  
 **Audience**: Self and close stakeholders
-
 ---
-
 ## Objectives
 
 - **Primary objective**: Understand monthly spending patterns and identify 2–3 areas to reduce expenses.  
 - **Secondary objectives**: Create simple visualizations and a reproducible notebook.
-
 ---
-
 ## Research Questions
 
 - **Primary question**: Which expense categories consume the largest share of monthly budget?  
 - **Secondary questions**: Are there recurring subscriptions that can be canceled? How does spending vary by week?
-
 ---
-
 ## Success Metrics
 
 - **Quantitative**: Identify top 3 categories that account for ≥50% of monthly spending.  
 - **Qualitative**: Notebook is clear and reproducible; insights are actionable.
-
 ---
-
 ## Milestones
 
 1. **Initialization and Setup** — due: Week 1 Day 1  
@@ -48,7 +38,6 @@
    - Tasks: finalize `README.md`, prepare 3-slide summary, commit final notebooks.
 
 ---
-
 ## Deliverables
 
 - **Clean dataset**: `data/clean/expenses_v1.csv`  
@@ -64,24 +53,20 @@
 - At least one actionable recommendation with estimated monthly savings.
 
 ---
-
 ## Risks and Mitigation
 
 - **Risk**: Missing or inconsistent transaction categories — **Mitigation**: manual mapping table and simple rules.  
 - **Risk**: Limited time — **Mitigation**: focus on top 3 categories only.
 
 ---
-
 ## Roles and Responsibilities
 
 - **Project Lead**: Rose (owner and analyst)  
 - **Documentation Owner**: Rose
-
----
-
+--
 ## Quick Start Checklist
 
-- [x] Create repository `personal-expense-insights`  
-- [x] Add `project_plan.md` with this content  
-- [x] Commit to `main` branch  
+- [ ] Create repository `personal-expense-insights`  
+- [ ] Add `project_plan.md` with this content  
+- [ ] Commit to `main` branch  
 - [ ] Create issues for each milestone
